@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loginpractice</title>
+   <style>
+    body{
+        text-align:center;
+        font-family:'Times New Roman', Times, serif;
+        background-color:beige ;
+    }
+    .container{
+        border:2px solid black;
+        border-radius:20px;
+        box-shadow:5px 5px 10px 5px cyan;
+        margin-top:15%;
+        margin-left:38%; 
+        width:25%;
+        height:300px;
+        background-color: white;
+        background:transparent;
+        backdrop-filter:blur(24px);
+    }
+    .form{
+        padding:15px;
+        font-size:35px;
+    }
+    .form input[type="text"],
+    .form input[type="password"]{
+        padding:20px;
+        border-radius:20px;
+    }
+    .form #btn{
+        padding:20px;
+        font-family:inherit;
+        border-radius:20px;
+        margin-top:10px;
+        width:35%;
+    }
+    .form input[type="text"]:hover,
+    .form input[type="password"]:hover,
+    .form #btn:hover{
+        background-color:cyan;
+    }
+    a{
+        text-decoration:none;
+    }
+   </style>
+</head>
+<body>
+    <div class="container">
+        <form class="form">
+         <label for="">Login</label><br>
+         <input type="text" placeholder="Your Name" name="text" required/><br>
+         <label for="">
+            <a href="#">Forget password</a>
+         </label><br>
+         <label for="">
+            <input type="password" placeholder="Your Password" name="password" required/>
+         </label><br>
+         <label for="">
+            <button id="btn">OK</button>
+         </label>
+
+        </form>
+    </div>
+    
+</body>
+</html>
